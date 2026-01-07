@@ -34,7 +34,6 @@ class MessageProto(ProtoGenerator):
     class MessageRequest(ProtoGenerator):
         message: str
         number: int
-
     class MessageResponse(ProtoGenerator):
         message: str
 
